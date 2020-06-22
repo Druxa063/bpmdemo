@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="bpmdemo" transaction-type="RESOURCE_LOCAL">
+
+        <class>com.company.bpmdemo.entity.AbstractEntity</class>
+        <class>com.company.bpmdemo.entity.Person</class>
+        <class>com.company.bpmdemo.entity.Order</class>
+        <class>com.company.bpmdemo.entity.Instrument</class>
+    </persistence-unit>
+</persistence>

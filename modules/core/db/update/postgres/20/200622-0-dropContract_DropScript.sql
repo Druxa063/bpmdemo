@@ -1,0 +1,1 @@
+drop table if exists BPMDEMO_CONTRACT__U19044 cascade ;

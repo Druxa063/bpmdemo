@@ -1,0 +1,2 @@
+alter table BPMDEMO_ORDER add constraint FK_BPMDEMO_ORDER_ON_PERSON foreign key (PERSON_ID) references BPMDEMO_PERSON(ID);
+create index IDX_BPMDEMO_ORDER_ON_PERSON on BPMDEMO_ORDER (PERSON_ID);
